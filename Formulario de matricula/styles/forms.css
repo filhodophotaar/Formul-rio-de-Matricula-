@@ -1,0 +1,30 @@
+@import url(fields/index.css);
+
+.child-info{
+
+    h3{
+        margin-bottom: 1.5rem;
+        color: var(--text-primary);
+    }
+
+    label{
+        display: block;
+        font: var(--text-sm);
+        color: var(--text-secondary);
+    }
+
+    & input{
+       margin-bottom: 1.5rem;
+    }
+
+    & select{
+        margin-bottom: 1.5rem;
+    }
+     
+    & textarea{
+        margin-bottom: 1.5rem;
+    }
+
+    
+
+}

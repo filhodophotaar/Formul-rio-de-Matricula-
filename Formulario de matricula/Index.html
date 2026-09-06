@@ -16,15 +16,81 @@
 
     <div id="app">
         <main>
-            <div class="main-container">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus PageMaker and Microsoft Word including versions of Lorem Ipsum.
+            <div class="main-container">
+                <div class="back-button"> 
+                  <img src="/assets/icons/arrow-left-02.svg" alt=""> <span>Voltar</span>
+                </div>
+                <h1>Formulário de matrícula</h1>
 
-</div>
+                <p> Preencha os dados abaixo para matricular seu filho na escola de educação infantil Estrelas do Amanhã. </p>
+
+            </div>
+
+            <div class="child-info">
+                <h3>Informações da criança</h3>
+
+                <form action="">
+
+                    <label for="nome">Nome completo</label>
+                    <input type="text" name="nome" id="nome">
+                    
+                     <label for="nome">Data de nascimento</label>
+                    <input type="date" name="nome" id="nome">
+
+                     <label for="nome">Sexo</label>
+                    <select name="nome" id="nome">
+                        <option value="masculino">Masculino</option>
+                        <option value="feminino">Feminino</option>
+                        <option value="outro">Outro</option>
+                    </select>
+
+                     <label for="nome">Informações médicas</label>
+                    <textarea  name="nome" id="nome" rows="5.5rem" cols="33rem">
+                       
+                    </textarea>
+                        
+                          <label for="nome">Certidão de nascimento</label>
+            <div class="dropzone">
+
+                  
+                    <input type="file" name="nome" id="birth-file">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M34.9552 18.0221C34.97 18.022 34.985 18.022 35 18.022C39.9706 18.022 44 22.0588 44 27.0386C44 31.6796 40.5 35.5016 36 36M34.9552 18.0221C34.9848 17.6921 35 17.3579 35 17.0202C35 10.9339 30.0752 6 24 6C18.2465 6 13.5247 10.4253 13.0408 16.0638M34.9552 18.0221C34.7506 20.2952 33.8572 22.3692 32.4856 24.033M20.001 18.022C18.3295 16.7639 16.2516 16.0183 14 16.0183C13.6765 16.0183 13.3565 16.0337 13.0408 16.0638C7.96796 16.5475 4 20.8278 4 26.0366C4 30.8834 7.43552 34.9264 12 35.8546" stroke="#D6D3D1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M24 26V42M24 26C22.5996 26 19.9831 29.9886 19 31M24 26C25.4004 26 28.017 29.9886 29 31" stroke="#D6D3D1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+
+                    <p>Arraste e solte o arquivo aqui ou clique para selecionar</p>
+
+            </div>
+
+                </form>
+
+
+            </div>
+
+
+
+
+    
         </main>
-
+    
         <aside>
-            <div class="aside-container">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus PageMaker and Microsoft Word including versions of Lorem Ipsum.
+            <div class="aside-container">
+                <header>
+                    <img src="/assets/Logo.svg" alt="Logo da Estrelas do Amanhã">
+                    <h2>
+                        Porque cada momento de <span id="aprendizado">aprendizado</span> conta
+                    </h2>
+                    <p id="inscreva">Inscreva seu filho em nossa escola e veja-o florescer em um ambiente acolhedor, seguro e estimulante.</p>
 
-</div>
+                </header>
+                <div class="aside-image">
+                    <img src="/assets/pana.svg" alt="">
+
+                </div>
+
+            </div>
         </aside>
 
     </div>
