@@ -1,3 +1,13 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow: hidden;
+
+    }
+
+
+
 :root{
     --font-fanmily: 'Poppins', sans-serif;
     --text: 400 1rem/1.5 var(--font-fanmily);
@@ -15,4 +25,9 @@
     --stroke-default: #D6D3D1;
     --stroke-highlight: #F3541C;
     --semantic-error: #DC2626;
+}
+
+body{
+    overflow: hidden;
+
 }
